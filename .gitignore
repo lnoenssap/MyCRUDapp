@@ -16,3 +16,4 @@ mergedManifestDescriptor.json
 APIExternalProducer.js
 .*/APIExternalProducer.js
 node_modules
+.DS_Store
