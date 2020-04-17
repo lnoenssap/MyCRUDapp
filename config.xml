@@ -1,12 +1,11 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- The {{}} placeholder values, if any, will be updated before the first build. -->
 <!-- Change the App Name, App Version, App Description and Min OS Versions in the 
      build wizard UI rather than manually modifying their values here. -->
 <!-- Do not change the widget "id" value here. -->
-<widget id="{{BundleIdentifier}}" version="{{AppVersion}}" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>{{AppName}}</name>
-    <description>{{AppDescription}}
-    </description>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.sap.webide.x2585aaf69ba542b58c89ded51a604275" version="1.1">
+    <name>MyCRUDApp</name>
+    <description/>
     <author href="http://cordova.io">SAP hybrid mobile solution</author>
     <content src="index.html"/>
     <access origin="*"/>
@@ -32,7 +31,7 @@
         <allow-intent href="market:*"/>
         <allow-intent href="sapauthenticator:*"/>
 
-        <preference name="android-minSdkVersion" value="{{minOS_ANDROID}}"/>
+        <preference name="android-minSdkVersion" value="21"/>
         <preference name="android-targetSdkVersion" value="28"/>
         <preference name="xwalkMultipleApk" value="false"/>
         <preference name="Orientation" value="default"/>
@@ -105,14 +104,14 @@
         <preference name="WKWebViewOnly" value="true"/>
         
         <preference name="Orientation" value="all"/>
-        <preference name="deployment-target" value="{{minOS_IOS}}"/>
+        <preference name="deployment-target" value="13.0"/>
         <preference name="StatusBarOverlaysWebView" value="false"/>
         <preference name="StatusBarStyle" value="default"/>
         <preference name="StatusBarBackgroundColor" value="#FFFFFF"/>
         
         <!-- iOS Split View support  -->
         <edit-config file="*-Info.plist" mode="merge" target="UIRequiresFullScreen">
-            <false />
+            <false/>
         </edit-config>
         <edit-config file="*-Info.plist" mode="merge" target="UILaunchStoryboardName">
             <string>CDVLaunchScreen</string>
@@ -120,7 +119,7 @@
 
         <!-- Required for certificate import -->
         <edit-config file="*-Info.plist" mode="merge" target="LSSupportsOpeningDocumentsInPlace">
-            <false />
+            <false/>
         </edit-config>
 
         <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
