@@ -7,7 +7,7 @@
  */
 var fiori_client_appConfig = {
 	"appName": "MyCRUDApp",
-	"appVersion": "1.1",
+	"appVersion": "1.2",
 	"appID": "com.sap.webide.x2585aaf69ba542b58c89ded51a604275",
 	"fioriURL": "https://mobilepreview-ef0438134.eu2.hana.ondemand.com:443",
 	"auth": [
